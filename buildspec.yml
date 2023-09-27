@@ -14,7 +14,8 @@ phases:
   build:
     commands:
       # Navigate to your PHP project directory
-      - cd /var/www/html      # Install project dependencies using Composer
+      - cd /var/www/html  
+      - composer require nesbot/carbon
       - composer install
 artifacts:
   files:
