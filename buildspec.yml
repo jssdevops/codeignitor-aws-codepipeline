@@ -6,7 +6,7 @@ phases:
   pre_build:
     commands:
       # Install Composer
-      - sudp apt update -y 
+      - sudo apt update -y 
       - curl -sS https://getcomposer.org/installer | php
       - mv composer.phar /usr/local/bin/composer
       - chmod +x /usr/local/bin/composer 
