@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cd /var/www/html
+#cd /var/www/html
 
-sudo apt update
-sudo apt install wget -y
+#sudo apt update
+#sudo apt install wget -y
 
-wget https://getcomposer.org/composer.phar
+#wget https://getcomposer.org/composer.phar
 
-php composer.phar install
+#php composer.phar install
 
