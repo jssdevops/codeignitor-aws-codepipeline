@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! [ -x "$(command -v nginx)" ]; then
-  sudo apt update
+  sudo apt update -y 
   sudo apt install -y nginx
   exit 1
 fi
